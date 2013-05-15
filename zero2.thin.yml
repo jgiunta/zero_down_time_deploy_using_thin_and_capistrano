@@ -1,0 +1,12 @@
+
+---
+chdir: /home/www.example.com/current
+environment: production
+daemonize: true
+timeout: 30
+port: 3003
+max_persistent_conns: 512
+wait: 60
+onebyone: true
+servers: 3
+
